@@ -1,0 +1,6 @@
+{
+  "name": "vue-component",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A vue-cli who create a default external Vue.js component template",
+}
