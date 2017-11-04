@@ -11,7 +11,7 @@ module.exports = {
       message: 'Project description',
       default: 'An awesome vue component'
     },
-    authorName: {
+    author: {
       type: 'string',
       required: false,
       message: 'Author name',
