@@ -11,15 +11,46 @@ module.exports = {
       message: 'Project description',
       default: 'An awesome vue component'
     },
-    author: {
+    authorName: {
       type: 'string',
-      message: 'Author'
+      required: false,
+      message: 'Author name',
+      default: 'Pierre Charles'
+    },
+    authorEmail: {
+      type: 'string',
+      required: false,
+      message: 'Author email',
+      default: 'contact@pierre-charles.com'
+    },
+    authorUrl: {
+      type: 'string',
+      required: false,
+      message: 'Author URL',
+      default: 'https://github.com/pierrechls/'
+    },
+    gitRepoAuthor: {
+      type: 'string',
+      required: false,
+      message: 'Git repo author pseudo',
+      default: 'pierrechls'
+    },
+    gitRepoName: {
+      type: 'string',
+      required: false,
+      message: 'Git repo name',
+      default: 'vue-component'
+    },
+    gitRepoUrl: {
+      type: 'string',
+      message: 'Git repo URL',
+      default: 'https://github.com/pierrechls/vue-component/'
     },
     componentName: {
       type: 'string',
       required: true,
       message: 'Component name',
-      default: 'VueComponent'
+      default: 'vue-component'
     },
     libraryFileName: {
       type: 'string',
