@@ -67,3 +67,4 @@ module.exports = {
     }
   },
   completeMessage: 'To get started:\n\n{{chandeDirectory}}  npm install\n  npm run dev\n  npm run build\n\nDocumentation can be found at https://github.com/pierrechls/vue-component'
+}
