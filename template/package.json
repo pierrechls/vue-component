@@ -10,10 +10,10 @@
   "keywords": [
     "vue",
     "vuejs",
-    "vue-component",
+    "vue-component"
   ],
   "author": {
-    "name": "{{ authorName }}",
+    "name": "{{ author }}",
     "email": "{{ authorEmail }}",
     "url": "{{ authorUrl }}"
   },
