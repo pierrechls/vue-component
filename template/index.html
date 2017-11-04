@@ -1,37 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{{ description }}</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>vue-component</title>
   </head>
   <body>
-    <h1>{{ title }}</h1>
-    <p class="spc-b">{{ description }}</p>
-    <div id="app">
-      <div class="vue-component-display">
-        <vue-component>
-          <!-- Here insert props and content -->
-        </vue-component>
-      </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.1/vue.min.js"></script>
+    <div id="app"></div>
     <script src="./dist/{{ libraryFileName }}"></script>
-
-    <script>
-
-      Vue.config.debug = true
-
-      new Vue({
-        el: '#app',
-        components: {
-          VueComponent: {{ componentName }},
-        },
-        data () {
-          return {}
-        },
-        methods: {}
-      })
-
-    </script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </body>
 </html>
